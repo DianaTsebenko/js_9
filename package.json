@@ -1,0 +1,29 @@
+{
+  "name": "js_9",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://dianatsebenko.github.io/js_9",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /js_9/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaTsebenko/js_9.git"
+  },
+  "keywords": [],
+  "author": "Diana Tsebenko <cebenkodiana@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.7"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
